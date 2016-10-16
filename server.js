@@ -3,7 +3,6 @@ console.log("coucou le monde, je suis node.js");
 var http=require('http');
 var port=8080;
 
-console.log('NodeJS server started listening'+port);
 
 var server= http.createServer(function(req,res){
 	res.writeHead(200,{"content-type":"text/html"});
@@ -21,3 +20,4 @@ var server= http.createServer(function(req,res){
 });
 
 server.listen(port);
+console.log('NodeJS server started listening port '+port);
