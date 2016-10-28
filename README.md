@@ -2,16 +2,21 @@
 Life dashboard on Raspberry Pi
 
 ## Ce que j'ai compris
-- j'ai compris comment envoyer une vue (html tout simple, ou tmplate avec le "render" par EJS), le moteur Jade/Pug, c'est vraiment de la grosse merde pour faire de l'angularJS
+- Utiliser Express pour faire un serveur Node.js
 
-- j'ai compris les fondamentaux de angularJS
-	- comment on fait des controleur et comment on fait le double data binding
+- Comment envoyer une vue 
+	- html tout simple
+	- ou par template avec le moteur de rendu EJS. *Le moteur Jade/Pug, c'est vraiment de la grosse merde pour faire de l'angularJS, enfin, je il me fait chier quoi*
+
+- Les fondamentaux de angularJS
+	- Comment on fait des controleurs
+	- Comment on fait le double data binding
 
 ## Ce que je cherche à comprendre
 - Comment faire pour qu'Angular rafraichisse un élement de la vue, genre faire une horloge, ou de manière étendue, tout le dashboard en fait
-- Comment intergrer un template bootstrap (ou autre, tant que ca fait des trucs cools)
+- Comment intergrer un template bootstrap proprement *surrement résolue*
 - Comment j'architechure mes ajax de données
-- Genre je veux recuperer mon planning sur google angenda, où est ce que je mets le module qui fait ça et comment je m'en sert par angular
+	- Genre je veux recuperer mon planning sur google angenda, où est ce que je mets le module qui fait ça et comment je m'en sert par angular
 
 
 
@@ -25,8 +30,6 @@ npm install npm@latest -g
 
 npm install express-generator -g
 
-npm install express 		# peut etre pas la peine en fait car je pense que express generator e fout dans le package.jso 
-
 express monsite
 
 cd monsite && npm install
@@ -39,4 +42,4 @@ npm uninstall jade
 
 *modifer les vues error, index et 404 au format EJS*
 
-set DEBUG=monsite:* & npm start 	# attention il faut penser à mettre l'étoile que le mardown interprette comme italique
+set DEBUG=monsite:* & npm start 	
