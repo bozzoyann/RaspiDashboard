@@ -2,24 +2,24 @@
 Life dashboard on Raspberry Pi
 
 ## Ce que j'ai compris
--j'ai compris comment envoyer une vue (html tout simple, ou tmplate avec le "render" par EJS), le moteur Jade/Pug, c'est vraiment de la grosse merde pour faire de l'angularJS
+- j'ai compris comment envoyer une vue (html tout simple, ou tmplate avec le "render" par EJS), le moteur Jade/Pug, c'est vraiment de la grosse merde pour faire de l'angularJS
 
--j'ai compris les fondamentaux de angularJS
-	-comment on fait des controleur et comment on fait le double data binding
+- j'ai compris les fondamentaux de angularJS
+	- comment on fait des controleur et comment on fait le double data binding
 
 ## Ce que je cherche à comprendre
--Comment faire pour qu'Angular rafraichisse un élement de la vue, genre faire une horloge, ou de manière étendue, tout le dashboard en fait
--Comment intergrer un template bootstrap (ou autre, tant que ca fait des trucs cools)
--Comment j'architechure mes ajax de données. 
--Genre je veux recuperer mon planning sur google angenda, où est ce que je mets le module qui fait ça et comment je m'en sert par angular
+- Comment faire pour qu'Angular rafraichisse un élement de la vue, genre faire une horloge, ou de manière étendue, tout le dashboard en fait
+- Comment intergrer un template bootstrap (ou autre, tant que ca fait des trucs cools)
+- Comment j'architechure mes ajax de données
+- Genre je veux recuperer mon planning sur google angenda, où est ce que je mets le module qui fait ça et comment je m'en sert par angular
 
 
 
 _____
 ## Commandes pour créer le serveur node.js et le lancer en mode debug
--installer 	
-	-node.js
-	-git
+Installer
+- node.js
+- git
 
 npm install npm@latest -g
 
