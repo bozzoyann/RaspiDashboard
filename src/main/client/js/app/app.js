@@ -1,4 +1,4 @@
-angular.module("raspi-dashboard", [])
+angular.module("raspi-dashboard", ["horloge"])
        .controller("test", function($scope, $http) {
            $scope.data = "data de test";
            $http.get("/api/test").then(function(response) {
