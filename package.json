@@ -1,0 +1,24 @@
+{
+  "name": "raspi-dashboard",
+  "version": "0.0.0-SNAPSHOT",
+  "description": "web application to display a user dashboard",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThomRick/RaspiDashboard.git"
+  },
+  "author": "ThomRick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThomRick/RaspiDashboard/issues"
+  },
+  "homepage": "https://github.com/ThomRick/RaspiDashboard#readme",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "express": "^4.14.0",
+    "request": "^2.76.0"
+  }
+}
