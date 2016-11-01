@@ -14,6 +14,10 @@ gulp.task("install", function() {
     return merge(installServerStream, installCliStream, installServicesStream);
 });
 
+gulp.task("default", [ "install" ], function() {
+    return gulp.watch([ "src/**", "GulpFile.js" ], [ "install" ]);
+});
+
 function createInstallServerStream() {
     return gulp.src("src/main/server/**/*.js")
     .pipe(gulp.dest("target/server"));
