@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app="apptest">
+<html ng-app="myAppTestAngular">
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +8,6 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <!--<link href="css/custom.css" rel="stylesheet">-->
 
-        <!--Ca, je sais pas si c'est vraiment utile-->
-        <link href="fonts/css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/animate.min.css" rel="stylesheet">
 
         <!-- Normalement, il faut le mettre à la fin, ça va plus vite à charger, mais bonn, ici, on le charge q'une fois, alors on se'en tape-->
         <script src="js/jquery-3.1.1.min.js"></script>
@@ -29,8 +26,8 @@
         <div class="jumbotron" >
           <div class="container" ng-controller="ctrltest1">
             <h1>{{horloge}}</h1>
-            <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-            <h1>{{message}}</h1>
+            <p>{{message}}</p>
+            <div horloge="">19 : 27 : 43</div>
             </div>
         </div>
 

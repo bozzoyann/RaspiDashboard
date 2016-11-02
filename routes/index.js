@@ -17,6 +17,9 @@ router.get('/testHTML',function(req,res,next){
 	res.sendfile('./views/vuetest.html');
 }); 
 
+router.get('/testAngular',function(req,res,next){
+	res.sendfile('./views/testAngular.html');
+}); 
 //et ça c'est pour passer tous les images qui sont dans public
 //On poourrait voir pour stocker par module mais fare un routeru général
 /*
