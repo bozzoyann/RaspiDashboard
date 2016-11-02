@@ -1,8 +1,4 @@
-angular.module("raspi-dashboard", ["horloge"])
-       .controller("test", function($scope, $http) {
-           $scope.data = "data de test";
-           $http.get("/api/test").then(function(response) {
-               console.log(response);
-               $scope.data = response.data.test;
-           });
-       });
+require("./horloge/horloge.module");
+require("./fun-flux/fun-flux.module");
+
+angular.module("raspi-dashboard", [ "horloge.module", "fun-flux.module" ]);
